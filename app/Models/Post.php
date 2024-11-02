@@ -8,5 +8,5 @@ use Symfony\Component\CssSelector\XPath\Extension\FunctionExtension;
 
 class Post extends Model
 {
-   
+    protected $fillable = ['title', 'author', 'slug', 'body'];
 }
