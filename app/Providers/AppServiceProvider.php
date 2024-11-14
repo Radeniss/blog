@@ -12,7 +12,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        Model::prenventLazyLoading();
+        // Perbaiki penulisan di sini, dari prenventLazyLoading ke preventLazyLoading
+        Model::preventLazyLoading();
     }
 
     /**
