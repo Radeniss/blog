@@ -18,7 +18,7 @@ class CategorySeeder extends Seeder
             'name' => 'Web Design',
             'slug' => 'web-design',
         ]);
-        
+
         Category::create([
             'name' => 'UI UX Deign',
             'slug' => 'ui-ux-design',
@@ -31,7 +31,7 @@ class CategorySeeder extends Seeder
 
         Category::create([
             'name' => 'Software Developer',
-            'slug' => 'software-developer   ',
+            'slug' => 'software-developer',
         ]);
     }
 }
